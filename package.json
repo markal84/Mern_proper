@@ -1,0 +1,41 @@
+{
+  "name": "30.0-Blog-MERN-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:markal84/30.0-Blog-MERN-stack.git",
+  "author": "Marcin Kaleta <kalet1984@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm-run-all -p -l build:client start:server",
+    "build:client": "cd client && npm run build",
+    "start-dev": "npm-run-all -p -l start:*",
+    "start:server": "cd server && yarn start",
+    "start:client": "cd client && yarn start",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "postinstall": "run-p install:*"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "animate.css": "3.7.0",
+    "axios": "0.18.0",
+    "helmet": "3.18.0",
+    "mongo-sanitize": "^1.0.1",
+    "node-sass": "4.12.0",
+    "npm-run-all": "4.1.5",
+    "react": "16.10.2",
+    "react-animated-css": "1.2.1",
+    "react-dom": "16.10.2",
+    "react-html-parser": "2.0.2",
+    "react-icons": "3.7.0",
+    "react-medium-editor": "1.8.1",
+    "react-redux": "7.0.1",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "^3.2.0",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0",
+    "uuid": "3.3.2"
+  }
+}
