@@ -20,7 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.7",
     "animate.css": "3.7.0",
-    "axios": "0.18.0",
+    "axios": "0.21.1",
     "helmet": "3.18.0",
     "mongo-sanitize": "^1.0.1",
     "node-sass": "4.12.0",
